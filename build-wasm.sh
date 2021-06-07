@@ -1,0 +1,1 @@
+docker run --rm --tty -v $(pwd):/src -u $(id -u):$(id -g) -it emscripten/emsdk /bin/bash ./build-inside.sh
